@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      target: development
+    container_name: financiero-front
+    user: $CURRENT_UID:$CURRENT_GID
+#    env_file: .env
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/app

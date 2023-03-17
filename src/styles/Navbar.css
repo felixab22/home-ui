@@ -1,0 +1,48 @@
+.main-img {
+    width: 130px;
+    height: 41px;
+}
+
+.navbar-menu {
+    background-color: #388e3c;
+}
+
+.navbar-menu-item:hover, .navbar-menu-item:focus {
+    color: white;
+    background-color: #5cb25d;
+}
+
+.navbar-submenu {
+    background-color: #5cb25d;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-submenu-item {
+    background-color: #5cb25d;
+    color: white;
+}
+
+.navbar-submenu-item:hover, .navbar-submenu-item:focus {
+    color: white;
+    background-color: #388e3c;
+}
+
+.login-button {
+    background-color: #5cb25d;
+    color: white;
+}
+
+.login-button:hover, .login-button:focus {
+    color: white;
+    background-color: #5cb25d66;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.active {
+    background-color: #388e3c !important;
+}
